@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(to bottom, #297045, #2E933C, #81C14B);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.h1 {
+    background: #81C14B;
+    border: #297045 dotted;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 45px;
+    position: absolute;
+    top: 370px;
+    box-shadow: 0px 5px 10px #297045;
+    
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+button a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+button {
+    background-color: #2E933C;
+    color: aliceblue;
+    border: #81C14B solid .5px;
+    padding: 5px 15px;
+    cursor: url(../images/dollar.png), pointer;
+    box-shadow: 5px 5px 10px #297045;
+}
+
+#myButton {
+    position: absolute;
+    top: 50px; /* Ajuste a posição superior conforme necessário */
+    left: 50%; /* Centraliza horizontalmente com base no pai */
+    transform: translateX(-50%);
+}
+
+
