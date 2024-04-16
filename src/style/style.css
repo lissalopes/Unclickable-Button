@@ -37,13 +37,30 @@ button {
     padding: 5px 15px;
     cursor: url(../images/dollar.png), pointer;
     box-shadow: 5px 5px 10px #297045;
+/*   position: absolute;
+    top: 480px;
+    left: 500px;*/
 }
 
-#myButton {
+button:first-child {
     position: absolute;
-    top: 50px; /* Ajuste a posição superior conforme necessário */
-    left: 50%; /* Centraliza horizontalmente com base no pai */
-    transform: translateX(-50%);
+    top: 480px;
+    left: 500px;
 }
+
+button:last-child {
+    position: absolute;
+    top: 480px;
+    left: 650px;
+}
+
+
+
+/*#myButton {
+    position: absolute;
+    top: 50px; Ajuste a posição superior conforme necessário
+    left: 50%; Centraliza horizontalmente com base no pai 
+    transform: translateX(-50%);
+}*/
 
 
